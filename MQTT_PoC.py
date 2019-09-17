@@ -39,5 +39,5 @@ class MQTT:
 
 
 if __name__ == "__main__":
-    mqtt = MQTT("./mqtt_info.txt", "126.165.113.227")
+    mqtt = MQTT("./mqtt_info.txt", "127.0.0.1")
     mqtt.start()
